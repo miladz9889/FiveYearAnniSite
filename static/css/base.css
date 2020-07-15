@@ -1,0 +1,246 @@
+.headerpic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.125rem;
+}
+
+body {
+  margin: 0px;
+}
+
+section {
+  padding: 3em 1em;
+}
+
+.countdownContainer {
+  margin-top: 2em;
+  background: 1px solid #999;
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 0 0 5px 3px rgb(4, 7, 4);
+}
+
+.info {
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+  font-family: lato-light;
+  display: inline-block;
+  width: auto;
+  text-align: center;
+}
+
+.days {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: lato-light;
+  width: auto;
+}
+
+footer {
+  background: #333;
+  padding: 3em 1em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+footer a {
+  color: inherit;
+}
+
+.footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav a {
+  padding: 0.75em;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* typography */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h2,
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p {
+  margin-bottom: 0.85em;
+}
+
+.text-primary {
+  color: black;
+}
+
+.logo {
+  text-align: center;
+  /* padding: 25px; */
+  margin: 5px;
+  font-family: Lato-light;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding: 1em 0 2em;
+}
+
+/* navigation */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+nav a {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-family: lato;
+  font-size: 28px;
+}
+
+nav a:hover,
+nav a:focus {
+  color: rgb(62, 27, 27);
+  text-decoration: underline;
+}
+/* buttons */
+
+/* Homepage styles */
+.hero {
+  background-color: #333;
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15vh 1em;
+  font-family: lato;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.about-us {
+  display: flex;
+  color: white;
+  padding: 0;
+}
+
+.about-us__body {
+  padding: 1em 1em 3em;
+}
+
+.heart {
+  background-color: red;
+  height: 30px;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+.heart:before {
+  top: -15px;
+  left: 0;
+}
+
+.copyright {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.player {
+  margin-top: 2em;
+  background: 1px solid #999;
+  font-size: 50px;
+  text-align: center;
+}
