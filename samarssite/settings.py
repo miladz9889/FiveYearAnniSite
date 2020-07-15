@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8f0381585469e6f3a6bf1d47ff485f089484d941578fb024'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
+DEBUG = 'False'
 
 ALLOWED_HOSTS = ['agile-coast-84106.herokuapp.com']
 
