@@ -27,12 +27,12 @@ prevBtn.addEventListern("click", () => {
 });
 
 caroselSlide.addEventListern("transitionend", () => {
-  if (craouselImages[counter].id == "lastClone") {
+  if (craouselImages[counter].id == "Lastclone") {
     caroselSlide.style.transition = "none";
     counter = craouselImages.length - 2;
     caroselSlide.style.transform = "transalateX(" + -size * counter + "px)";
   }
-  if (craouselImages[counter].id == "firstClone") {
+  if (craouselImages[counter].id == "firstclone") {
     caroselSlide.style.transition = "none";
     counter = craouselImages.length - counter;
     caroselSlide.style.transform = "transalateX(" + -size * counter + "px)";
