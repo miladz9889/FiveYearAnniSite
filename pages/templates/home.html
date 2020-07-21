@@ -5,20 +5,13 @@
     <head>        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="{% static "css/base.css" %}"  >      
+<link rel="stylesheet" type="text/css" href="{% static "css/base.css" %}">      
 <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
         <title>Samar's Surprise</title>
     </head>
     <body>
         <header>
             <h1 class="logo">Samar & Milad</h1>
-            <!-- <h1 class="logo"><a href="base.html"><img src="{% static 'images/S&M-LOGO.svg' %}"  alt="logo"></a></h1> -->
-            <!-- <nav>
-                <ul>
-                        <li><a href="#">YOUR LOGIN</a></li>
-                        <li><a href="#">LOVE</a></li>    
-                    </ul>
-                </nav> -->
             </header>
           
             <main>
@@ -52,21 +45,28 @@
     </script>
         </div>
         </section>
-        <section>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+            <img src="{% static 'images/pic1.jpeg' %}" id="Lastclone"alt="">
+            <img src="{% static 'images/pic2.jpeg' %}" alt="">
+            <img src="{% static 'images/pic3.jpeg' %}" alt="">
+            <img src="{% static 'images/pic4.jpeg' %}" alt="">
+            <img src="{% static 'images/pic5.jpeg' %}" alt="">
+            <img src="{% static 'images/pic6.jpeg' %}" alt="">
+            <img src="{% static 'images/pic7.jpeg' %}" id="firstclone" alt="">
+        </div>
+        </div>
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
         <div class="player">
             <iframe src="https://open.spotify.com/embed/track/7l6q62nz8OjlVJ5HvYkjqZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
-        </div>
-        
-    </section>
+            <script type="text/javascript" src="{% static 'js/gallery.js' %}">
+            </script>
     <script type="text/javascript" src="{% static 'js/musicplayer.js' %}">
     </script>
     </main>
             <footer>
-                <!-- <ul class="footer-nav">
-                    <li><a href="#">LOGIN</a></li>
-                    <li><a href="#">LOVE</a></li>
-                </ul> -->
                         <div class="copyright">
                             <div class="copyright"> &copy; Copyright 2020 By Milad & Samar</div>
                         </div>

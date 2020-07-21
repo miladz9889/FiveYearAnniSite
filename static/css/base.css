@@ -149,6 +149,18 @@ pre {
   line-height: 18.5714px;
 }
 
+.carousel-container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
 .logo a {
   text-decoration: none;
   color: black;
@@ -212,26 +224,6 @@ nav a:focus {
   padding: 1em 1em 3em;
 }
 
-.heart {
-  background-color: red;
-  height: 30px;
-  transform: rotate(-45deg);
-  width: 30px;
-}
-.heart:before,
-.heart:after {
-  content: "";
-  background-color: red;
-  border-radius: 50%;
-  height: 30px;
-  position: absolute;
-  width: 30px;
-}
-.heart:before {
-  top: -15px;
-  left: 0;
-}
-
 .copyright {
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
@@ -243,4 +235,26 @@ nav a:focus {
   background: 1px solid #999;
   font-size: 50px;
   text-align: center;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
 }
