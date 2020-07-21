@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="{% static "css/base.css" %}">      
 <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/8025f3aa55.css">
         <title>Samar's Surprise</title>
     </head>
     <body>
@@ -15,7 +16,7 @@
             </header>
           
             <main>
-                <img src="{% static 'images/NEWHEADER.png' %}" 
+                <img class="center-image" src="{% static 'images/NEWHEADER.jpg' %}" 
             alt="centered image"/>
                     <section>
                     <h1 class="hero" style="background-image: url('{% static "images/anotherlaugh.jpeg"%}')";">Happy Anniversary eshgam! I can't believe it has already been 5 years! I hope you like what I've created for you. Think of this as a vehicle for what is to come for the rest of the year and maybe even a start of a page we can use for the future. The below countdown is one of several that you will be getting. Once the clock hits zero you will be directed to the next stage. So come visit your site in a couple months 😃 <br>Love, your boo, Milad <br>♥️</br></br></h1>
@@ -41,30 +42,45 @@
                             </tr>
                 </table>
             </section class="countdownContainer">
-       <script type="text/javascript" src="{% static 'js/countdown.js' %}">
-    </script>
         </div>
+        
         </section>
-        <div class="carousel-container">
-            <div class="carousel-slide">
-            <img src="{% static 'images/pic1.jpeg' %}" id="Lastclone" alt="">
-            <img src="{% static 'images/pic2.jpeg' %}" alt="">
-            <img src="{% static 'images/pic3.jpeg' %}" alt="">
-            <img src="{% static 'images/pic4.jpeg' %}" alt="">
-            <img src="{% static 'images/pic5.jpeg' %}" alt="">
-            <img src="{% static 'images/pic6.jpeg' %}" alt="">
-            <img src="{% static 'images/pic7.jpeg' %}" id="firstclone" alt="">
-        </div>
-        </div>
-        <button id="prevBtn">Prev</button>
-        <button id="nextBtn">Next</button>
+        <section>
+            <h2>GALLERY</h2>
+            <div class="container">
+                <div class="box box1">
+                    <div class="overlay"></div>
+                    <img src="{% static 'images/pic1.jpeg' %}">
+                </div>
+                <div class="box box2">
+                    <div class="overlay"></div>
+                    <img src="{% static 'images/pic2.jpeg' %}">
+                </div>
+                <div class="box box3">
+                    <div class="overlay"></div>
+                    <img <img src="{% static 'images/pic3.jpeg' %}">
+                </div>
+                <div class="box box4">
+                    <div class="overlay"></div>
+                    <img src="{% static 'images/pic4.jpeg' %}">
+                </div>
+                <div class="box box5">
+                    <div class="overlay"></div>
+                    <img src="{% static 'images/pic5.jpeg' %}">
+                </div>
+                <div class="box box6">
+                    <div class="overlay"></div>
+                    <img src="{% static 'images/pic6.jpeg' %}">
+                </div>
+                <div class="box box7">
+                    <div class="overlay"></div>
+                    <img src="{% static 'images/pic7.jpeg' %}">
+                </div>
+            </div>
+        </section>
         <div class="player">
             <iframe src="https://open.spotify.com/embed/track/7l6q62nz8OjlVJ5HvYkjqZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
-            <script type="text/javascript" src="{% static 'js/gallery.js' %}">
-            </script>
-    <script type="text/javascript" src="{% static 'js/musicplayer.js' %}">
-    </script>
     </main>
             <footer>
                         <div class="copyright">
@@ -72,4 +88,10 @@
                         </div>
             </footer>
 </body>
+            <script type="text/javascript" src="{% static 'js/gallery.js' %}">
+            </script>
+    <script type="text/javascript" src="{% static 'js/musicplayer.js' %}">
+    </script>
+       <script type="text/javascript" src="{% static 'js/countdown.js' %}">
+    </script>
 </html>
