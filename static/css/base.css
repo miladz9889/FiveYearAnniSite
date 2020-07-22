@@ -204,7 +204,8 @@ nav a:focus {
   color: white;
   text-align: center;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   padding: 15vh 1em;
   font-family: lato;
   font-weight: normal;
