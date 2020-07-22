@@ -203,7 +203,7 @@ nav a:focus {
   background-blend-mode: multiply;
   color: white;
   text-align: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   padding: 15vh 1em;
   font-family: lato;
