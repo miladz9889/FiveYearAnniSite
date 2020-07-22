@@ -207,7 +207,7 @@ nav a:focus {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 15vh 1em;
-  height: 0;
+  height: 100%;
   font-family: lato;
   font-weight: normal;
   font-size: 30px;
