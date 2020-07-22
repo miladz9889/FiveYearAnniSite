@@ -219,6 +219,7 @@ nav a:focus {
   display: flex;
   color: white;
   padding: 0;
+  text-align: center;
 }
 
 .about-us__body {
@@ -390,8 +391,8 @@ div.container .box .overlay:hover ~ img {
 }
 
 .scroller {
-  background: rgba(245, 232, 211, 1);
   margin-bottom: 10em;
+  text-align: center;
 }
 
 .fixed-bg {
