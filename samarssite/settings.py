@@ -27,7 +27,7 @@ SECRET_KEY = '8f0381585469e6f3a6bf1d47ff485f089484d941578fb024'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'False'
 
-ALLOWED_HOSTS = ['agile-coast-84106.herokuapp.com']
+ALLOWED_HOSTS = ['agile-coast-84106.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
