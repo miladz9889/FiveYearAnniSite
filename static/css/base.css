@@ -392,15 +392,7 @@ div.container .box .overlay:hover ~ img {
 }
 
 .scroller {
-  -webkit-clip-path: polygon(1% 2%, 99% 0%, 97% 95%, 4% 100%);
-  margin-bottom: 10em;
+  margin-bottom: initial;
   text-align: center;
-}
-
-.fixed-bg {
-  position: fixed;
-  background-size: cover;
-  width: inherit;
-  height: inherit;
-  z-index: -1;
+  vertical-align: middle;
 }
